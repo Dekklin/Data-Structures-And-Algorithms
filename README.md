@@ -2,5 +2,5 @@
 Data structures folder for .NET 401
 
 ## Table of Contents
-- ![Challenge 01 : Reverse an Array](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/array_reverse/Challenges/01_ReverseArray) "Day 1 Reverse Array";
-- ![Challenge 02 : Reverse an Array]()
+- [Challenge 01 : Reverse an Array](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/array_reverse/Challenges/01_ReverseArray)
+- [Challenge 02 : Reverse an Array]()
