@@ -4,6 +4,7 @@ namespace _02BinarySearch
 {
     class Program
     {
+        //method that defines a test array and a test search key
         static void Main(string[] args)
         {// my test array is the array I'm hard coding to run every time someone runs the program
             int[] testArray = new int[] { 1, 3, 4, 5, 6, 8};
@@ -14,9 +15,11 @@ namespace _02BinarySearch
             Print(testArray);
             Console.WriteLine($"Your Search Key was {SK}");
             Console.Read();
-
         }
-        // Method that begins (and ends) the math portion of our program
+
+        //Method that cuts an array in half, if the search key is less than that middle point, it makes that mid point the new max, and runs the method again.
+        //if the mid point was less than the SK, it makes the mid point the new min point and runs the method again with the new arguements
+
         static int BinarySearch(int[] array, int SK,int Max, int Min)
         {
             //Since we want to return -1 if an element doesn't match our search key
@@ -47,6 +50,7 @@ namespace _02BinarySearch
 
             return results;
         }
+        //This method simply prints out our array for testing and visibility reasons. 
         static void Print(int[] array)
         {
             foreach(int i in array)
