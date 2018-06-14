@@ -1,22 +1,5 @@
-# Whiteboard Challenge 07: k-th value from the end of a linked list
-This program returns the value that is k nodes from the end of a linked list.
-It then uses the main method to display the node's corresponding value as
-proof of implementation.
+# Challenge: Linked List
+This program is a simple test of how Linked Lists work and operate. It as methods to add linked lists, before and after nodes. Also in the front of the link list. It can locate a node and add a node. Linked Lists seem to be useful when you're needing to have a conglomerate of information that changes in size. Compared to arrays, you can add a node at the front of the LinkedList so the Big O for Time is much much faster than adding it to the end of an array without affecting the rest of the array.
 
-Example:	
-        
-       Linked list:
-       10 --> 12 --> 14 --> NULL
-
-		input: k = 1
-		output: 12 --> 
-
-		input: k = 2
-		output: 10 -->
-
-## Challenge
-Write a method that returns a node that is k from the end of
-a linked list.
-
-## Solution
-![whiteboard 07 image](../../assets/kth_element.jpg "Whiteboard Challenge 02 Solution")
+# Visual
+- ![Linked List](https://puu.sh/AE0YD/9af08b57f2.png)
