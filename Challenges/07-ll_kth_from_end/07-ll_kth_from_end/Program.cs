@@ -4,6 +4,7 @@ namespace _07_ll_kth_from_end
 {
     public class Program
     {
+        // main method that triggers on program start, grabs int K from user and initiates the KthElement method with k
         static void Main(string[] args)
         {
             int k = int.Parse(Console.ReadLine());
@@ -11,6 +12,7 @@ namespace _07_ll_kth_from_end
             Console.WriteLine(endPoint);
             Console.ReadKey();
         }
+        // Creates a linked list then returns the Node thats K spaces from the end
         public static Node KthElement(int k)
         {
             LinkL ll = new LinkL(new Node(10));
