@@ -6,15 +6,17 @@ namespace _07_ll_kth_from_end
 {
     public class LinkL
     {
+        // Link List properties
         public Node Head { get; set; }
 
         public Node Current { get; set; }
-
+    // link list constructor
         public LinkL(Node node)
         {
             Head = node;
             Current = node;
         }
+        // adds a node to the head of the Linked List (Big O (1))
         public void AddNode(Node node)
         {
             node.Next = Head;
