@@ -4,6 +4,7 @@ using System.Text;
 
 namespace _07_ll_kth_from_end
 {
+    //node constructor
     public class Node
     {
         public int Value { get; set; }
