@@ -11,7 +11,7 @@ namespace Queue_With_Stacks
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            QueueStack();
+            QueueWithStack();
         }
         /// <summary>
         /// Method that creates a stack, and implements the Enqueue and DeQueue methods which adds a node, and removes the bottom node
