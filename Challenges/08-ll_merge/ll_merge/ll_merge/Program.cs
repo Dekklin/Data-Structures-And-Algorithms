@@ -5,6 +5,7 @@ namespace ll_merge
 {
     public class Program
     {
+        // main method that creates Link Lists and calls the merge method to combine the two
         static void Main(string[] args)
         {
 
@@ -27,6 +28,7 @@ namespace ll_merge
             Console.WriteLine(Merge(ll1, ll2).Next.Value);
             Console.ReadKey();
         }
+        // takes two linkedlists and moves the second one into the first one, combining the lists into one
         static Node Merge(LinkList ll1, LinkList ll2)
         {
             ll1.Current = ll1.Head;
