@@ -25,11 +25,11 @@ namespace ll_merge
             //LinkList ll3 = Merge(ll1, ll2);
             ll1.Print();
             ll2.Print();
-            Console.WriteLine(Merge(ll1, ll2).Next.Value);
+            Console.WriteLine(Merge(ll1, ll2).Value);
             Console.ReadKey();
         }
         // takes two linkedlists and moves the second one into the first one, combining the lists into one
-        static Node Merge(LinkList ll1, LinkList ll2)
+        public static Node Merge(LinkList ll1, LinkList ll2)
         {
             ll1.Current = ll1.Head;
             ll2.Current = ll2.Head;
