@@ -12,6 +12,7 @@ namespace Tree
         {
             BuildBT();
             Console.WriteLine("Here is BST now");
+            Console.WriteLine("");
             BuildBST();
             Console.ReadKey();
         }
