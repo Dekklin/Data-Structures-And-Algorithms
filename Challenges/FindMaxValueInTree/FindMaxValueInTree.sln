@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxValueInTree", "FindMaxValueInTree\FindMaxValueInTree.csproj", "{798C62F3-8EFE-4481-B941-71CAAA595E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{3B9BB837-FA53-4581-A3EF-895BF57BEBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798C62F3-8EFE-4481-B941-71CAAA595E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798C62F3-8EFE-4481-B941-71CAAA595E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798C62F3-8EFE-4481-B941-71CAAA595E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798C62F3-8EFE-4481-B941-71CAAA595E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9BB837-FA53-4581-A3EF-895BF57BEBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9BB837-FA53-4581-A3EF-895BF57BEBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9BB837-FA53-4581-A3EF-895BF57BEBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9BB837-FA53-4581-A3EF-895BF57BEBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADF6D702-69EB-43BC-B1FE-B8194E453066}
+	EndGlobalSection
+EndGlobal
