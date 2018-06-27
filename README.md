@@ -11,3 +11,5 @@ Data structures folder for .NET 401
 - ![Challenge 11 : Stack With Queues](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/Queue_With_Stacks)
 - ![Challenge 12 : Animal Shelter](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/12-AnimalShelter)
 - ![Challenge 13 : FizzBuzz Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FizzBuzzTree)
+- ![Challenge 17 : FizzBuzz Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FizzBuzzTree)
+- ![Challenge 18 : Find Max Value In Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FindMaxValue)
