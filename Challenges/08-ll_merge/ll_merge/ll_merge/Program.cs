@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using ll_merge.Classes;
 
 namespace ll_merge
@@ -96,4 +96,3 @@ namespace ll_merge
         }
     }
 }
-
