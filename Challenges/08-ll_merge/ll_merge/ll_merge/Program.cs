@@ -28,7 +28,12 @@ namespace ll_merge
             Console.WriteLine(Merge(ll1, ll2).Value);
             Console.ReadKey();
         }
-        // takes two linkedlists and moves the second one into the first one, combining the lists into one
+/// <summary>
+/// Takes in two LinkLists that merges the second list into the first, one node at a time. Acting like a zipper
+/// </summary>
+/// <param name="ll1"></param>
+/// <param name="ll2"></param>
+/// <returns>The first link list, which has the contents of both the first and second LL</returns>
         public static Node Merge(LinkList ll1, LinkList ll2)
         {
             ll1.Current = ll1.Head;
@@ -62,7 +67,12 @@ namespace ll_merge
 
 
 
-        //my second attempt at solving this problem
+        /// <summary>
+        /// First attempt in the merge
+        /// </summary>
+        /// <param name="ll1"></param>
+        /// <param name="ll2"></param>
+        /// <returns></returns>
         static Node Merge2(LinkList ll1, LinkList ll2)
         {
             ll1.Current = ll1.Head;
