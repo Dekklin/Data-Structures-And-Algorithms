@@ -11,7 +11,10 @@ namespace Tree
     {
         Root = root;
     }
-        // Prints the Tree out from Root, Left, Right
+        /// <summary>
+        /// Prints out the nodes in order of Root, Left, Right.
+        /// </summary>
+        /// <param name="node"></param>
         public void PreOrder (Node node)
         {
             Console.WriteLine(node.Value);
@@ -25,7 +28,10 @@ namespace Tree
             }
         }
 
-        // Prints the Tree out from Left, Root, Right
+        /// <summary>
+        /// Traverses through the tree nodes from Left, Root, Right
+        /// </summary>
+        /// <param name="node"></param>
         public void InOrder(Node node)
         {
             if (node.LeftChild != null)
@@ -40,7 +46,10 @@ namespace Tree
                 InOrder(node.RightChild);
             }
         }
-        // Prints tree out, left, right, root
+        /// <summary>
+        /// Traverses through the tree in the order of Left Right Root
+        /// </summary>
+        /// <param name="node"></param>
         public void PostOrder(Node node)
         {
             if (node.LeftChild != null)
@@ -56,7 +65,7 @@ namespace Tree
             Console.WriteLine(node.Value);
 
         }
-        // This uses a queue to go through the BinaryTree, it adds the nodes to the queue based on level, starting at root(the top) and working its way down
+        
         public void BreadthFirst(Node root)
         {
             Queue<Node> breadth = new Queue<Node>();

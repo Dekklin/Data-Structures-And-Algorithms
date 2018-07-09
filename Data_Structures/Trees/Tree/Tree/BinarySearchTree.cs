@@ -60,11 +60,36 @@ namespace Tree
 
         }
         /// <summary>
+        /// This traverses through the tree in levels, starting with root, then its children. then the left's children, then right's then the next level
+        /// </summary>
+        /// <param name="root"></param>
+        public void BreadthFirst(Node root)
+        {
+            Queue<Node> breadth = new Queue<Node>();
+            breadth.Enqueue(root);
+
+            while (breadth.TryPeek(out root))
+            {
+                Node front = breadth.Dequeue();
+                Console.Write(front.Value);
+                if (front.LeftChild != null)
+                {
+                    breadth.Enqueue(front.LeftChild);
+                }
+                if (front.RightChild != null)
+                {
+                    breadth.Enqueue(front.RightChild);
+                }
+            }
+        }
+
+
+        /// <summary>
         /// Searches for a Node with the value of "value"
         /// </summary>
         /// <param name="root"></param>
         /// <param name="value"></param>
-        /// <returns></returns>
+        /// <returns>The Node with that value</returns>
         public Node Search(Node root, int value)
         {
             if(root == null)

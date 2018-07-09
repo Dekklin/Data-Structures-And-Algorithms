@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplementGraph", "Graph\ImplementGraph.csproj", "{4EF36A42-CE64-49DD-AF26-F838C4ADD6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{19F9C6D0-0D06-43B2-8F0D-3E77D728351A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF36A42-CE64-49DD-AF26-F838C4ADD6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF36A42-CE64-49DD-AF26-F838C4ADD6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF36A42-CE64-49DD-AF26-F838C4ADD6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF36A42-CE64-49DD-AF26-F838C4ADD6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F9C6D0-0D06-43B2-8F0D-3E77D728351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F9C6D0-0D06-43B2-8F0D-3E77D728351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F9C6D0-0D06-43B2-8F0D-3E77D728351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F9C6D0-0D06-43B2-8F0D-3E77D728351A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE940B8B-FDE4-452B-92E5-713083B6DDCC}
+	EndGlobalSection
+EndGlobal
