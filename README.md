@@ -13,6 +13,7 @@ Data structures folder for .NET 401
 - ![Challenge 13 : Multi Bracket Validation](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/test2/Challenges/MultiBracket)
 - ![Challenge 17 : FizzBuzz Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FizzBuzzTree)
 - ![Challenge 18 : Find Max Value In Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FindMaxValue)
+- ![Challenge 23 : Find Edges in Graph]()
 
 
 
