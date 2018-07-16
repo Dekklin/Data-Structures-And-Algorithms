@@ -26,26 +26,34 @@ namespace ImplementGraph
             graph.AddEdge(NodeB, NodeE);
             graph.AddEdge(NodeB, NodeF);
             Console.WriteLine("---Breadth");
+            //Breadth returns a list of nodes which we attach to a variable and print the list to see the traversal order
             List<Node> example = graph.Breadth(NodeA);
             foreach(Node node in example)
             {
                 Console.WriteLine(node.Value);
             }
             Console.WriteLine("---Depth");
+            //I'm getting stuck on one edge case
             Console.WriteLine("TBC");
+
+
             //List<Node> example2 = graph.Depth(NodeA);
             //foreach(Node node in example2)
             //{
             //    Console.WriteLine(node.Value);
             //}
             //Console.WriteLine(graph.GetNeighbor(NodeA));
+
+
             Console.WriteLine("---GetNeighbor");
+            //GetNeighbor returns a list of nodes which we attach to a variable and print the list to see the children of the root node we pass in.
             List<Node> example2 = graph.GetNeighbor(NodeA);
             foreach(Node node in example2)
             {
                 Console.WriteLine(node.Value);
             }
             Console.WriteLine("---GetNodes");
+            //Get Nodes returns a list of nodes which we attach to a variable and print the list to see what nodes are in the graph
             List<Node> example3 = graph.GetNodes(NodeA);
             foreach(Node node in example3)
             {
