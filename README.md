@@ -15,10 +15,12 @@ Data structures folder for .NET 401
 - ![Challenge 18 : Find Max Value In Tree](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/FindMaxValue)
 - ![Challenge 23 : Find Edges in Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/FindIslands/Challenges/ImplementWeight)
 - ![Challenge 28 : FindIslands](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/FindIslands/Challenges/FindIslands)
+- ![Challenge 31 : RepeateWords]()
 
 
 ## Data Structures
 - ![Link List](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/LinkedList/Class05-LinkedList)
 - ![Stacks and Queues](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Stacks%20and%20Queues)
 - ![Trees](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Tree)
-- ![Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Tree)
+- ![Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Graph)
+- ![HashTable](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/ImplementHashTables)
