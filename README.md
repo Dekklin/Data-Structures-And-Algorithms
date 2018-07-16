@@ -21,4 +21,5 @@ Data structures folder for .NET 401
 - ![Link List](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/LinkedList/Class05-LinkedList)
 - ![Stacks and Queues](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Stacks%20and%20Queues)
 - ![Trees](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Tree)
-- ![Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Tree)
+- ![Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/Trees/Graph)
+- ![HashTable](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/ImplementHashTables)
