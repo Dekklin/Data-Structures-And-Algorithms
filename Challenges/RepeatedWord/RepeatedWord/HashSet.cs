@@ -6,13 +6,19 @@ namespace RepeatedWord
 {
     public class HashSet
     {
+        /// <summary>
+        /// Hashset constructor and sets the length to 1024
+        /// </summary>
         public string[] table { get; set; }
-
         public HashSet()
         {
             table = new string[1024];
         }
-
+        /// <summary>
+        /// Splits up a string by words, then passes each word through a Hashing algorithm, if we run into a collision, then the words are a duplicate
+        /// </summary>
+        /// <param name="sentence"></param>
+        /// <returns>The first repeated word in the sentence parameter</returns>
         public string RepeatedWord(string sentence)
         {
             
