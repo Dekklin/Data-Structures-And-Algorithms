@@ -22,7 +22,11 @@ namespace LeftJoin
             hs2.Add("guide", "follow");
             hs2.Add("flow", "jam");
 
-            JoinLeft(hs, hs2);
+            List<string> k = JoinLeft(hs, hs2);
+            foreach(string i in k)
+            {
+                Console.WriteLine(i)
+            }
             Console.ReadKey();
 
         }
