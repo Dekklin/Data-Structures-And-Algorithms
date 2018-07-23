@@ -16,7 +16,7 @@ Data structures folder for .NET 401
 - ![Challenge 23 : Find Edges in Graph](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/FindIslands/Challenges/ImplementWeight)
 - ![Challenge 28 : FindIslands](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/FindIslands/Challenges/FindIslands)
 - ![Challenge 31 : RepeatWords](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Challenges/RepeatedWord)
-
+- ![LeftJoin](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/LeftJoin/Challenges/LeftJoin)
 
 ## Data Structures
 - ![Link List](https://github.com/Dekklin/Data-Structures-And-Algorithms/tree/master/Data_Structures/LinkedList/Class05-LinkedList)
