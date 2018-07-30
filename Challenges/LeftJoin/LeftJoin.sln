@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftJoin", "LeftJoin\LeftJoin.csproj", "{867D5B1B-7136-4D20-A422-814D129EAE20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeftJoin", "LeftJoin\LeftJoin.csproj", "{867D5B1B-7136-4D20-A422-814D129EAE20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B5DFE774-D81D-4CF3-8641-D56A923A97FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{B5DFE774-D81D-4CF3-8641-D56A923A97FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
